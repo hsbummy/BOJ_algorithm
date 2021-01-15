@@ -57,6 +57,22 @@ for i in range(2,-1,-1):
 print(data1*int(data2))
 
 
-# ws0115
-# 이미지로 제출
-# 쇼핑몰 ERD를 작성 하시오
+#BOJ3046
+R1, S = map(int, input().split(" "))
+print(2 * S - R1)
+
+#BOJ2163
+N, M = map(int, input().split())
+print(N*M -1)
+
+#BOJ11021
+N = int(input())
+for i in range(1, N+1):
+    A, B = map(int, input().split(" "))
+    print("Case #{0}: {1}".format(i, A+B))
+
+#BOJ11022
+N = int(input())
+for i in range(1, N+1):
+    A, B = map(int, input().split(" "))
+    print("Case #{0}: {1} + {2} = {3}".format(i, A, B, A+B))

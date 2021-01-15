@@ -17,4 +17,17 @@
 | 10869    | [백준](https://www.acmicpc.net/problem/10869) | [풀이](https://www.acmicpc.net/source/25079645) | 사칙연산         |
 | 10430    | [백준](https://www.acmicpc.net/problem/10430) | [풀이](https://www.acmicpc.net/source/25081160) | 사칙연산         |
 | 2588     | [백준](https://www.acmicpc.net/problem/2588)  | [풀이](https://www.acmicpc.net/source/25301772) | 입출력, 사칙연산 |
+| 3046     | [백준](https://www.acmicpc.net/problem/3046)  | [풀이](https://www.acmicpc.net/source/25316120) | 수학             |
+| 2163     | [백준](https://www.acmicpc.net/problem/2163)  | [풀이](https://www.acmicpc.net/source/25316403) | 수학             |
+| 11021    | [백준](https://www.acmicpc.net/problem/11021) | [풀이](https://www.acmicpc.net/source/25317668) | 수학             |
+| 11022    | [백준](https://www.acmicpc.net/problem/11022) | [풀이](https://www.acmicpc.net/source/25317789) | 수학             |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
+|          |                                               |                                                 |                  |
 
