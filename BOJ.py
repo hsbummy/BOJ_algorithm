@@ -76,3 +76,8 @@ N = int(input())
 for i in range(1, N+1):
     A, B = map(int, input().split(" "))
     print("Case #{0}: {1} + {2} = {3}".format(i, A, B, A+B))
+
+#BOJ10699
+import time
+seoul = time.strftime('%Y-%m-%d',time.localtime())
+print(seoul)

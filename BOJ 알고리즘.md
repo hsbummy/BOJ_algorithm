@@ -21,7 +21,7 @@
 | 2163     | [백준](https://www.acmicpc.net/problem/2163)  | [풀이](https://www.acmicpc.net/source/25316403) | 수학             |
 | 11021    | [백준](https://www.acmicpc.net/problem/11021) | [풀이](https://www.acmicpc.net/source/25317668) | 수학             |
 | 11022    | [백준](https://www.acmicpc.net/problem/11022) | [풀이](https://www.acmicpc.net/source/25317789) | 수학             |
-|          |                                               |                                                 |                  |
+| 10699    | [백준](https://www.acmicpc.net/problem/10699) | [풀이](https://www.acmicpc.net/source/25326999) | 구현             |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |
