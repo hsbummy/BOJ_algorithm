@@ -81,3 +81,18 @@ for i in range(1, N+1):
 import time
 seoul = time.strftime('%Y-%m-%d',time.localtime())
 print(seoul)
+
+#BOJ2525
+a, b = map(int, input().split(" "))
+chicken = int(input())
+
+if b + chicken >=60:
+    a += (b+chicken)//60
+    total = (b+chicken)%60
+
+else:
+    total = b+chicken
+
+a%=24
+
+print(a, total)
