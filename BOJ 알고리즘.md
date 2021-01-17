@@ -23,9 +23,9 @@
 | 11022    | [백준](https://www.acmicpc.net/problem/11022) | [풀이](https://www.acmicpc.net/source/25317789) | 수학             |
 | 10699    | [백준](https://www.acmicpc.net/problem/10699) | [풀이](https://www.acmicpc.net/source/25326999) | 구현             |
 | 2525     | [백준](https://www.acmicpc.net/problem/2525)  | [풀이](https://www.acmicpc.net/source/25350836) | 수학, 사칙연산   |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
+| 2530     | [백준](https://www.acmicpc.net/problem/2530)  | [풀이](https://www.acmicpc.net/source/25359057) | 수학, 사칙연산   |
+| 2914     | [백준](https://www.acmicpc.net/problem/2914)  | [풀이](https://www.acmicpc.net/source/25359382) | 수학             |
+| 5355     | [백준](https://www.acmicpc.net/problem/5355)  | [풀이](https://www.acmicpc.net/source/25375942) | 수학             |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |

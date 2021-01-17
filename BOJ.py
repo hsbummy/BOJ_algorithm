@@ -96,3 +96,46 @@ else:
 a%=24
 
 print(a, total)
+
+
+# BOJ2530
+h, m, s = map(int, input().split(" "))
+ds = int(input())
+
+s += ds % 60
+ds = ds//60
+if s >= 60:
+    s -= 60
+    m += 1
+
+m += ds % 60
+ds = ds//60
+if m >= 60:
+    m -= 60
+    h += 1
+
+h += ds % 24
+if h >= 24:
+    h -= 24
+
+print(h, m ,s)
+
+#BOJ 2914
+a, b = map(int,input().split(" "))
+print((b-1)*a +1)   
+
+#BOJ 5355
+for x in range(t):
+    mars = list(map(str, input().split(" ")))
+    answer = 0
+    for i in range(len(mars)):
+        if i == 0:
+            answer += float(mars[i])
+        else:
+            if mars[i] =="#":
+                answer -= 7
+            elif mars[i] == "%":
+                answer += 5
+            elif mars[i] == "@":
+                answer *= 3
+    print("%.2f" % answer)
