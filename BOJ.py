@@ -125,6 +125,8 @@ a, b = map(int,input().split(" "))
 print((b-1)*a +1)   
 
 #BOJ 5355
+t = int(input())
+
 for x in range(t):
     mars = list(map(str, input().split(" ")))
     answer = 0
@@ -139,3 +141,49 @@ for x in range(t):
             elif mars[i] == "@":
                 answer *= 3
     print("%.2f" % answer)
+
+
+#BOJ2675
+
+T = int(input())
+
+for x in range(T):
+    num,s = input().split(" ")
+    text=""
+    for i in s:
+        text += int(num) * i
+
+    print(text)
+
+#BOJ2935
+
+a = int(input())
+a_1 = input()
+b = int(input())
+answer = 0
+if a_1 == "+":
+    answer += a+b
+else:
+    a_1 == "*"
+    answer += a*b
+
+print(answer)
+
+# BOJ9498
+a = int(input())
+if 90 <= a <= 100:
+    print("A")
+elif 80<= a < 90:
+    print("B")
+elif 70 <= a < 80:
+    print("C")
+elif 60 <= a <70:
+    print("D")
+else:
+    print("F")
+
+# BOJ10817
+a,b,c = map(int, input().split(" "))
+list_answer = [a,b,c]
+list_answer.sort(reverse=True)
+print(list_answer[1])
