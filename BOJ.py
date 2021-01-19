@@ -1,32 +1,32 @@
-#BOJ1000
+#BOJ 1000
 A, B = map(int ,input().split())
 print(A+B)
 
-#BOJ1001
+#BOJ 1001
 A, B = map(int ,input().split())
 print(A-B)
 
-#BOJ1008
+#BOJ 1008
 A, B = map(int ,input().split())
 print(A/B)
 
-#BOJ2557
+#BOJ 2557
 print("Hello World!")
 
-#BOJ10171
+#BOJ 10171
 print("\\    /\\")
 print(" )  ( ')")
 print("(  /  )")
 print(" \\(__)|")
 
-#BOJ10172
+#BOJ 10172
 print("|\\_/|")
 print("|q p|   /}")
 print('( 0 )"""\\')
 print('|"^"`    |')
 print("||_/=\\\\__|")
 
-#BOJ10869
+#BOJ 10869
 A, B =map(int, input().split())
 print(A+B)
 print(A-B)
@@ -34,19 +34,19 @@ print(A*B)
 print(A//B)
 print(A%B)
 
-#BOJ10871
+#BOJ 10871
 print("강한친구 대한육군\n강한친구 대한육군")
 
-#BOJ10998
+#BOJ 10998
 A, B = map(int ,input().split())
 print(A*B)
 
-#BOJ2588
+#BOJ 2588
 data1 = int(input())
 data2 = int(input())
 print(data1+data2)
 
-#BOJ2558
+#BOJ 2558
 data1 = int(input())
 data2 = input()
 list(data2)
@@ -57,32 +57,32 @@ for i in range(2,-1,-1):
 print(data1*int(data2))
 
 
-#BOJ3046
+#BOJ 3046
 R1, S = map(int, input().split(" "))
 print(2 * S - R1)
 
-#BOJ2163
+#BOJ 2163
 N, M = map(int, input().split())
 print(N*M -1)
 
-#BOJ11021
+#BOJ 11021
 N = int(input())
 for i in range(1, N+1):
     A, B = map(int, input().split(" "))
     print("Case #{0}: {1}".format(i, A+B))
 
-#BOJ11022
+#BOJ 11022
 N = int(input())
 for i in range(1, N+1):
     A, B = map(int, input().split(" "))
     print("Case #{0}: {1} + {2} = {3}".format(i, A, B, A+B))
 
-#BOJ10699
+#BOJ 10699
 import time
 seoul = time.strftime('%Y-%m-%d',time.localtime())
 print(seoul)
 
-#BOJ2525
+#BOJ 2525
 a, b = map(int, input().split(" "))
 chicken = int(input())
 
@@ -98,7 +98,7 @@ a%=24
 print(a, total)
 
 
-# BOJ2530
+# BOJ 2530
 h, m, s = map(int, input().split(" "))
 ds = int(input())
 
@@ -143,7 +143,7 @@ for x in range(t):
     print("%.2f" % answer)
 
 
-#BOJ2675
+#BOJ 2675
 
 T = int(input())
 
@@ -155,7 +155,7 @@ for x in range(T):
 
     print(text)
 
-#BOJ2935
+#BOJ 2935
 
 a = int(input())
 a_1 = input()
@@ -169,7 +169,7 @@ else:
 
 print(answer)
 
-# BOJ9498
+# BOJ 9498
 a = int(input())
 if 90 <= a <= 100:
     print("A")
@@ -182,8 +182,66 @@ elif 60 <= a <70:
 else:
     print("F")
 
-# BOJ10817
+# BOJ 10817
 a,b,c = map(int, input().split(" "))
 list_answer = [a,b,c]
 list_answer.sort(reverse=True)
 print(list_answer[1])
+
+# BOJ 11653
+a = int(input())
+result = []
+
+while a !=1:
+    for i in range(2, a+1):
+        if a % i ==0:
+            result.append(i)
+            a = a//i
+            break
+for i in result:
+    print(i)
+
+# BOJ 1330
+a, b = map(int,input().split(" "))
+
+if a > b:
+    print(">")
+elif a < b:
+    print("<")
+else:
+    a == b
+    print("==")
+
+# BOJ 2753
+
+a = int(input())
+
+if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
+    print("1")
+else:
+    print("0") 
+
+# BOJ 14681
+
+x = int(input())
+y = int(input())
+
+if x > 0 and y > 0:
+    print("1")
+elif x < 0 and y > 0:
+    print("2")
+elif x < 0 and y < 0:
+    print("3")
+elif x > 0 and y < 0:
+    print("4")
+
+# BOJ 2884
+
+a, b = map(int, input().split(" "))
+if b > 44:
+    print(a, b-45, sep=" ")
+elif b < 45 and a > 0:
+    print(a-1, b+15, sep=" ")
+
+else:
+    print(23, b+15)
