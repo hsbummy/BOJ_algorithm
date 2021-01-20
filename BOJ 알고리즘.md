@@ -35,17 +35,17 @@
 | 2753     | [백준](https://www.acmicpc.net/problem/2753)  | [풀이](https://www.acmicpc.net/source/25455524) | 구현             |
 | 14681    | [백준](https://www.acmicpc.net/problem/14681) | [풀이](https://www.acmicpc.net/source/25455754) | 구현             |
 | 2884     | [백준](https://www.acmicpc.net/problem/2884)  | [풀이](https://www.acmicpc.net/source/25456468) | 구현             |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
+| 10950    | [백준](https://www.acmicpc.net/problem/10950) | [풀이](https://www.acmicpc.net/source/25457270) | 수학, 구현       |
+| 2739     | [백준](https://www.acmicpc.net/problem/2739)  | [풀이](https://www.acmicpc.net/source/25457530) | 구현             |
+| 8393     | [백준](https://www.acmicpc.net/problem/8393)  | [풀이](https://www.acmicpc.net/source/25457629) | 구현             |
+| 15552    | [백준](https://www.acmicpc.net/problem/15552) | [풀이](https://www.acmicpc.net/source/25458119) | 구현             |
+| 2741     | [백준](https://www.acmicpc.net/problem/2741)  | [풀이](https://www.acmicpc.net/source/25458203) | 구현             |
+| 2742     | [백준](https://www.acmicpc.net/problem/2742)  | [풀이](https://www.acmicpc.net/source/25458380) | 구현             |
+| 2438     | [백준](https://www.acmicpc.net/problem/2438)  | [풀이](https://www.acmicpc.net/source/25465201) | 구현             |
+| 2439     | [백준](https://www.acmicpc.net/problem/2439)  | [풀이](https://www.acmicpc.net/source/25465302) | 구현             |
+| 10871    | [백준](https://www.acmicpc.net/problem/10871) | [풀이](https://www.acmicpc.net/source/25472128) | 구현             |
+| 10952    | [백준](https://www.acmicpc.net/problem/10952) | [풀이](https://www.acmicpc.net/source/25474504) | 구현             |
+| 10951    | [백준](https://www.acmicpc.net/problem/10951) | [풀이](https://www.acmicpc.net/source/25475273) | 구현             |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |

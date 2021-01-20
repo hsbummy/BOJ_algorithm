@@ -245,3 +245,92 @@ elif b < 45 and a > 0:
 
 else:
     print(23, b+15)
+
+# BOJ 10950
+
+n = int(input())
+
+for i in range (1, n+1):
+    a, b = map(int, input().split(" "))
+    print(a+b)
+
+# BOJ 2739
+n = int(input())
+
+for i in range(1, 10):
+    print("{} * {} = {}".format(n, i, n*i))
+
+# BOJ 8393
+
+n = int(input())
+sum = 0
+for i in range(1,n+1):
+    sum += i
+
+print(sum)
+
+# BOJ 15552
+import sys
+
+a = int(sys.stdin.readline())
+for i in range(1,a+1):
+    x,y = map(int,sys.stdin.readline().split())
+    print(x+y)
+
+# BOJ 2741
+N = int(input())
+
+for i in range(1,N+1):
+    print(i)
+
+# BOJ 2742
+N = int(input())
+
+for i in range(N, 0, -1):
+    print(i)
+
+# BOJ 2438
+n = int(input())
+
+for i in range(1,n+1):
+    print("*"*i)
+
+# BOJ 2439
+
+n = int(input())
+
+for i in range(1,n+1):
+    print(str("*"*i).rjust(n))
+
+# BOJ 10871
+import sys
+
+n, m = map(int, sys.stdin.readline().split())
+
+a = list(map(int, sys.stdin.readline().split()))
+
+for num in a:
+    if int(num) < m:
+        print(int(num), end=" ")
+
+# BOJ 10952
+import sys
+
+while  True:
+    n, m = map(int, sys.stdin.readline().split())
+    if n == 0 and m == 0:
+        break
+
+    print(n+m)
+
+# BOJ 10951
+
+import sys
+
+while  True:
+    try:
+        n, m = map(int, sys.stdin.readline().split())
+        print(n+m)
+        
+    except:
+        break
