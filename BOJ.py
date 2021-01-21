@@ -334,3 +334,47 @@ while  True:
         
     except:
         break
+
+# BOJ 10757
+a, b = map(int,input().split())
+print(a+b)
+
+# BOJ 2480
+a,b,c = map(int,input().split())
+
+if a==b==c:
+    print((a*1000)+10000)
+elif a==b:
+    print((a*100)+1000)
+elif b==c:
+    print((a*100)+1000)
+elif a==c:
+    print((a*100)+1000)
+else:
+    print(max(a,b,c)*100)
+
+# BOJ 10156
+k, n, m = map(int,input().split())
+
+if m - (k*n) > 0:
+    print(0)
+
+elif m - (k*n) < 0:
+    print((k*n)-m)
+
+# BOJ 10162
+
+
+t = int(input())
+
+if not t % 10 == 0:
+    print(-1)
+
+else:
+    a=0
+    b=0
+    c=0
+    a = t // 300
+    b = (t % 300) // 60
+    c = (t % 300) % 60 // 10
+    print(a, b, c)

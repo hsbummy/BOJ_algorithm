@@ -46,10 +46,10 @@
 | 10871    | [백준](https://www.acmicpc.net/problem/10871) | [풀이](https://www.acmicpc.net/source/25472128) | 구현             |
 | 10952    | [백준](https://www.acmicpc.net/problem/10952) | [풀이](https://www.acmicpc.net/source/25474504) | 구현             |
 | 10951    | [백준](https://www.acmicpc.net/problem/10951) | [풀이](https://www.acmicpc.net/source/25475273) | 구현             |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
-|          |                                               |                                                 |                  |
+| 10757    | [백준](https://www.acmicpc.net/problem/10757) | [풀이](https://www.acmicpc.net/source/25496086) | 구현             |
+| 2480     | [백준](https://www.acmicpc.net/problem/2480)  | [풀이](https://www.acmicpc.net/source/25507696) | 구현             |
+| 10156    | [백준](https://www.acmicpc.net/problem/10156) | [풀이](https://www.acmicpc.net/source/25508558) | 구현             |
+| 10162    | [백준](https://www.acmicpc.net/problem/10162) | [풀이](https://www.acmicpc.net/source/25509538) | 구현             |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |
 |          |                                               |                                                 |                  |
