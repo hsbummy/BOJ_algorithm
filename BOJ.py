@@ -378,3 +378,80 @@ else:
     b = (t % 300) // 60
     c = (t % 300) % 60 // 10
     print(a, b, c)
+
+# BOJ 10039
+a = int(input())
+b = int(input()) 
+c = int(input())
+d = int(input())
+e = int(input())
+
+if a < 40 :
+    a = 40
+if b < 40:
+    b = 40
+if c < 40:
+    c = 40
+if d < 40:
+    d = 40
+if e < 40:
+    e = 40
+
+print(int((a+b+c+d+e))//5)
+
+# BOJ 10953
+n = int(input())
+
+for i in range (1, n+1):
+    a, b = map(int, input().split(","))
+    print(a+b)
+
+# BOJ 2754
+s = input()
+
+if s == 'A+':
+    print(4.3)
+elif s == 'A0':
+    print(4.0)
+elif s == 'A-':
+    print(3.7)
+elif s == 'B+':
+    print(3.3)
+elif s == 'B0':
+    print(3.0)
+elif s == 'B-':
+    print(2.7)
+elif s == 'C+':
+    print(2.3)
+elif s == 'C0':
+    print(2.0)
+elif s == 'C-':
+    print(1.7)
+elif s == 'D+':
+    print(1.3)
+elif s == 'D0':
+    print(1.0)
+elif s == 'D-':
+    print(0.7)
+elif s == 'F':
+    print(0.0) 
+
+# BOJ 5063
+n = int(input())
+for i in range(1, n+1):
+    r, e, c = map(int, input().split())
+    if e - c > r:
+        print("advertise")
+    elif e - c - r == 0:
+        print("does not matter")
+    elif e - c < r:
+        print("do not advertise")  
+
+# BOJ 5717
+while True:
+    m, f = map(int,input().split())
+    if m ==0 and f ==0:
+        break
+    else:
+        print(m+f)
+
