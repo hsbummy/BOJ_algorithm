@@ -472,3 +472,108 @@ for i in range(n):
         answer = max(answer, (max(x,y,z)*100))
    
 print(answer)
+
+# BOJ 10103
+a = 100
+b = 100
+n = int(input())
+
+for i in range(n):
+    x, y = map(int, input().split())
+    if x < y :
+        a -= y
+    elif x == y:
+        a += 0
+        b += 0
+    elif x > y:
+        b -= x
+
+print(a)
+print(b)
+
+# BOJ 4101
+
+while True:
+    x, y = map(int,input().split())
+    if x == 0 and y == 0:
+        break
+    elif x < y :
+        print("No")
+    elif x == y :
+        print("No")
+    elif x > y :
+        print("Yes")
+
+# BOJ 10886
+
+n = int(input())
+result = 0
+for i in range(n):
+    a = int(input())
+    if a == 1:
+        result += 1
+
+    
+if result > n //2:
+    print("Junhee is cute!")
+else:
+    print("Junhee is not cute!")
+
+# BOJ 5086
+
+while True:
+    x, y = map(int,input().split())
+    if x == 0 and y == 0:
+        break
+
+    elif y % x == 0:
+        print("factor")
+    
+    elif x % y  == 0:
+        print("multiple")
+
+    else:
+        print("neither")
+
+# BOJ 3009
+sq = []
+x = []
+y = []
+
+for i in range(3):
+    sq.append(list(map(int,input().split())))
+for [a, b] in sq:
+    if a in x:
+        x.remove(a)
+    else:
+        x.append(a)
+    
+    if b in y:
+        y.remove(b)
+    else:
+        y.append(b)
+
+print(x[0], y[0])
+
+# BOJ 9610
+
+n = int(input())
+Q1= Q2= Q3= Q4 = AXIS =0
+for i in range(n):
+    x, y = map(int,input().split())
+    if x > 0 and y > 0:
+        Q1 += 1
+    elif x < 0 and y > 0:
+        Q2 += 1
+    elif x < 0 and y < 0:
+        Q3 += 1
+    elif x > 0 and y < 0:
+        Q4 += 1
+    else:
+        AXIS += 1
+print("Q1: {}".format(Q1))
+print("Q2: {}".format(Q2))
+print("Q3: {}".format(Q3))
+print("Q4: {}".format(Q4))
+print("AXIS: {}".format(AXIS))
+    
