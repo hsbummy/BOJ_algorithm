@@ -576,4 +576,24 @@ print("Q2: {}".format(Q2))
 print("Q3: {}".format(Q3))
 print("Q4: {}".format(Q4))
 print("AXIS: {}".format(AXIS))
-    
+
+# BOJ 10214
+
+n = int(input())
+for i in range(n):
+    xcnt = ycnt = 0
+    for j in range(9):
+        x ,y = map(int,input().split())
+        if x > 0:
+            xcnt +=1
+        elif y > 0:
+            ycnt +=1
+
+    if xcnt > ycnt:
+        print("Yonsei")
+
+    elif xcnt < ycnt:
+        print("Korea")
+
+    else:
+        ("Draw")

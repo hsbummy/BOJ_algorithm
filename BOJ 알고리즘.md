@@ -69,7 +69,7 @@
 | 5086     | [백준](https://www.acmicpc.net/problem/5086)  | [풀이](https://www.acmicpc.net/source/25563810) | 구현       |
 | 3009     | [백준](https://www.acmicpc.net/problem/3009)  | [풀이](https://www.acmicpc.net/source/25564819) | 구현       |
 | 9610     | [백준](https://www.acmicpc.net/problem/9610)  | [풀이](https://www.acmicpc.net/source/25565201) | 구현, 수학 |
-|          |                                               |                                                 |            |
+| 10214    | [백준](https://www.acmicpc.net/problem/10214) | [풀이](https://www.acmicpc.net/source/25565786) | 구현       |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
