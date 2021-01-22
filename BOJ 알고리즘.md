@@ -56,3 +56,13 @@
 | 5063     | [백준](https://www.acmicpc.net/problem/5063)    | [풀이](https://www.acmicpc.net/source/25527920)              | 구현             |
 | 5717     | [백준](https://www.acmicpc.net/problem/5717)    | [풀이](https://www.acmicpc.net/status?user_id=tkdqja8&problem_id=5717&from_mine=1) | 구현             |
 
+
+
+## 2단계 이제는 생각이 필요하다.
+
+| 문제번호 | 문제링크                                     | 풀이                                            | 분류 |
+| -------- | -------------------------------------------- | ----------------------------------------------- | ---- |
+| 2476     | [백준](https://www.acmicpc.net/problem/2476) | [풀이](https://www.acmicpc.net/source/25554951) | 구현 |
+|          |                                              |                                                 |      |
+|          |                                              |                                                 |      |
+

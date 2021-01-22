@@ -455,3 +455,20 @@ while True:
     else:
         print(m+f)
 
+# BOJ 2476
+n = int(input())
+answer = 0
+for i in range(n):
+    x,y,z = map(int,input().split())
+    if x == y ==z:
+        answer = max(answer, 10000+(x*1000))
+    elif x == y:
+        answer = max(answer, 1000+(x*100))
+    elif y == z:
+        answer = max(answer, 1000+(y*100))
+    elif x == z:
+        answer = max(answer, 1000+(x*100))
+    else:
+        answer = max(answer, (max(x,y,z)*100))
+   
+print(answer)
