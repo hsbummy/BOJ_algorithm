@@ -597,3 +597,60 @@ for i in range(n):
 
     else:
         ("Draw")
+
+# BOJ 10102
+
+v = int(input())
+o = list(str(input()))
+acnt = 0
+bcnt = 0
+for i in o:
+    if i == "A":
+        acnt += 1
+
+    elif i == "B":
+        bcnt += 1
+
+if acnt > bcnt:
+    print("A")
+elif acnt < bcnt:
+    print("B")
+else:
+    print("Tie")
+
+# BOJ 7567
+
+d = list(str(input()))
+h = 0
+for i in range(len(d)):
+    if i == 0:
+        h += 10
+    elif d[i] == d[i-1]:
+        h += 5
+    else:
+        h += 10
+
+
+print(h)
+
+# BOJ 2440
+
+n = int(input())
+
+for i in range(n, 0, -1):
+    print("*" * i)
+
+# BOJ 2441
+
+n = int(input())
+
+for i in range(n, 0, -1):
+    b = ("*" * i).rjust(n)
+    print(b)
+
+# BOJ 2442
+
+n = int(input())
+for i in range(1, n+1):
+    result = " " * (n-i)+ "*" *(2*i-1)
+    print(result)
