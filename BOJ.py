@@ -676,3 +676,42 @@ for i in range(n):
 
 print(enu_app)
 
+
+# BOJ 2443
+
+n = int(input())
+for i in range(n, 0, -1):
+    result = " " * (n-i)+ "*" *(2*i-1)
+    print(result)
+
+# BOJ 2444
+
+n = int(input())
+for i in range(1, n+1):
+    result = " " * (n-i)+ "*" *(2*i-1)
+    print(result)
+    if i == n:
+        for i in range(n-1, 0, -1):
+            result = " " * (n-i)+ "*" *(2*i-1)
+            print(result)
+
+# BOJ 2522
+
+for i in range(1, n+1):
+    result = "*" * i
+    print(result.rjust(n))
+    if i == n:
+        for i in range(n-1, 0, -1):
+            result = "*" * i
+            print(result.rjust(n))
+
+# BOJ 2523
+
+n = int(input())
+for i in range(1, n+1):
+    result = "*" * i
+    print(result)
+    if i == n:
+        for i in range(n-1, 0, -1):
+            result = "*" * i
+            print(result)
