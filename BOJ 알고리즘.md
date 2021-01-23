@@ -75,8 +75,8 @@
 | 2440     | [백준](https://www.acmicpc.net/problem/2440)  | [풀이](https://www.acmicpc.net/source/25571788) | 구현       |
 | 2441     | [백준](https://www.acmicpc.net/problem/2441)  | [풀이](https://www.acmicpc.net/source/25571871) | 구현       |
 | 2442     | [백준](https://www.acmicpc.net/problem/2442)  | [풀이](https://www.acmicpc.net/source/25572222) | 구현       |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
+| 5565     | [백준](https://www.acmicpc.net/problem/5565)  | [풀이](https://www.acmicpc.net/source/25583479) | 구현       |
+| 10833    | [백준](https://www.acmicpc.net/problem/10833) | [풀이](https://www.acmicpc.net/source/25592198) | 수학, 구현 |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |

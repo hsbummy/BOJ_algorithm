@@ -654,3 +654,25 @@ n = int(input())
 for i in range(1, n+1):
     result = " " * (n-i)+ "*" *(2*i-1)
     print(result)
+
+# BOJ 5565
+
+p = int(input())
+
+for i in range(9):
+    ep = int(input())
+    p -= ep
+
+print(p)
+
+# BOJ 10833
+
+n = int(input())
+enu_app = 0
+for i in range(n):
+    stu, app = map(int, input().split())
+    enu_app += app % stu
+
+
+print(enu_app)
+
