@@ -715,3 +715,33 @@ for i in range(1, n+1):
         for i in range(n-1, 0, -1):
             result = "*" * i
             print(result)
+
+# BOJ 2455
+
+xcnt = 0
+psg = []
+for i in range(4):
+    
+    x, y = map(int,input().split())
+    xcnt -= x
+    psg.append(xcnt)
+    
+    xcnt += y
+    psg.append(xcnt)
+
+print(max(psg))
+
+# BOJ 2506
+
+n = int(input())
+a = list(map(int, input().split()))
+cnt = 0
+sum = 0
+for i in range(n):
+    if a[i] == 1:
+        cnt += 1
+        sum += cnt
+    else:
+        cnt = 0
+
+print(sum)
