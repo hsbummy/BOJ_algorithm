@@ -745,3 +745,34 @@ for i in range(n):
         cnt = 0
 
 print(sum)
+
+# BOJ 9085
+
+t = int(input())
+for i in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))
+    print(sum(a))
+
+# BOJ 10872
+
+n = int(input())
+a = 1
+for i in range(1, n+1):
+    a *= i
+print(a)
+
+# BOJ 2501
+
+n, k = map(int, input().split())
+m = []
+for i in range(1, n+1):
+    if n % i == 0:
+        m.append(n//i)
+        
+
+m.sort()
+if len(m) < k:
+    print(0)
+else:     
+    print(m[k-1])
