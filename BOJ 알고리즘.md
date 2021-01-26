@@ -86,8 +86,8 @@
 | 9085     | [백준](https://www.acmicpc.net/problem/9085)  | [풀이](https://www.acmicpc.net/source/25672068) | 구현       |
 | 10872    | [백준](https://www.acmicpc.net/problem/10872) | [풀이](https://www.acmicpc.net/source/25672389) | 구현       |
 | 2501     | [백준](https://www.acmicpc.net/problem/2501)  | [풀이](https://www.acmicpc.net/source/25672903) | 구현       |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
+| 2576     | [백준](https://www.acmicpc.net/problem/2576)  | [풀이](https://www.acmicpc.net/source/25716813) | 구현       |
+| 10178    | [백준](https://www.acmicpc.net/problem/10178) | [풀이](https://www.acmicpc.net/source/25716938) | 구현       |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |

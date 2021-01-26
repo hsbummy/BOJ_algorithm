@@ -776,3 +776,25 @@ if len(m) < k:
     print(0)
 else:     
     print(m[k-1])
+
+# BOJ 2576
+
+sum_list = []
+for i in range(7):
+    a = int(input())
+    if a % 2 != 0:
+        sum_list.append(a)
+
+if sum_list:
+    print(sum(sum_list))
+    print(min(sum_list))
+else:
+    print(-1)
+
+# BOJ 10178
+
+t = int(input())
+
+for i in range(t):
+    c, v = map(int, input().split())
+    print("You get {} piece(s) and your dad gets {} piece(s).".format((c//v),(c%v)))
