@@ -798,3 +798,63 @@ t = int(input())
 for i in range(t):
     c, v = map(int, input().split())
     print("You get {} piece(s) and your dad gets {} piece(s).".format((c//v),(c%v)))
+
+# BOJ 2010
+
+n = int(input())
+sum = 1
+for i in range(n):
+    a = int(input())
+    if a-1 == 0:
+        sum += 0
+    else:
+        sum += (a-1)
+
+print(sum)
+
+# BOJ 2490
+
+for i in range(3):
+    a = list(map(int, input().split()))
+    if sum(a) == 4:
+        print("E")
+    elif sum(a) == 3:
+        print("A")
+    elif sum(a) == 2:
+        print("B")
+    elif sum(a) == 1:
+        print("C")
+    else:
+        print("D")
+
+
+# BOJ 10569
+
+t = int(input())
+a = 0
+for i in range(t):
+    v, e = map(int, input().split())
+    a = 2+e-v
+    print(a)
+
+
+# BOJ 9295
+
+t = int(input())
+
+for i in range(1,t+1):
+    a, b = map(int,input().split())
+    print("Case {}: {}".format(i, a+b))
+
+# BOJ 9325
+
+t = int(input())
+
+for i in range(t):
+    s = int(input())
+    n = int(input())
+    sum = 0
+    for j in range(n):
+        q, p = map(int,input().split())
+        sum += q*p
+    print(s+sum)

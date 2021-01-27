@@ -88,11 +88,11 @@
 | 2501     | [백준](https://www.acmicpc.net/problem/2501)  | [풀이](https://www.acmicpc.net/source/25672903) | 구현       |
 | 2576     | [백준](https://www.acmicpc.net/problem/2576)  | [풀이](https://www.acmicpc.net/source/25716813) | 구현       |
 | 10178    | [백준](https://www.acmicpc.net/problem/10178) | [풀이](https://www.acmicpc.net/source/25716938) | 구현       |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
+| 2010     | [백준](https://www.acmicpc.net/problem/2010)  | [풀이](https://www.acmicpc.net/source/25754268) | 구현       |
+| 2490     | [백준](https://www.acmicpc.net/problem/2490)  | [풀이](https://www.acmicpc.net/source/25754496) | 구현       |
+| 10569    | [백준](https://www.acmicpc.net/problem/10569) | [풀이](https://www.acmicpc.net/source/25755160) | 구현       |
+| 9295     | [백준](https://www.acmicpc.net/problem/9295)  | [풀이](https://www.acmicpc.net/source/25755296) | 구현       |
+| 9325     | [백준](https://www.acmicpc.net/problem/9325)  | [풀이](https://www.acmicpc.net/source/25755539) | 구현       |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
