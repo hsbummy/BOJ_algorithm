@@ -858,3 +858,42 @@ for i in range(t):
         q, p = map(int,input().split())
         sum += q*p
     print(s+sum)
+
+# BOJ 10818
+
+n = int(input())
+t = list(map(int,input().split()))
+
+print(min(t),max(t), sep=" ")
+
+
+# BOJ 10984
+
+t = int(input())
+for i in range(t):
+    sum = 0
+    gpa = 0
+    n = int(input())
+    for j in range(n):
+        c, g = map(float, input().split())
+        sum += c
+        gpa += c*g
+
+    print(int(sum),round(gpa/sum,1))
+
+# BOJ 2747
+
+n = int(input())
+dp = [0, 1]
+for i in range(2, n+1):
+    dp.append(dp[-1]+dp[-2])
+print(dp[n])
+
+# BOJ 2921
+
+n = int(input())
+sum = 0
+for i in range(n+1):
+    for j in range(i,n+1):
+        sum += i+j
+print(sum)

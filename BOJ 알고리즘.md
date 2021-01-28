@@ -93,10 +93,10 @@
 | 10569    | [백준](https://www.acmicpc.net/problem/10569) | [풀이](https://www.acmicpc.net/source/25755160) | 구현       |
 | 9295     | [백준](https://www.acmicpc.net/problem/9295)  | [풀이](https://www.acmicpc.net/source/25755296) | 구현       |
 | 9325     | [백준](https://www.acmicpc.net/problem/9325)  | [풀이](https://www.acmicpc.net/source/25755539) | 구현       |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
+| 10818    | [백준](https://www.acmicpc.net/problem/10818) | [풀이](https://www.acmicpc.net/source/25755871) | 구현       |
+| 10984    | [백준](https://www.acmicpc.net/problem/10984) | [풀이](https://www.acmicpc.net/source/25783832) | 구현       |
+| 2747     | [백준](https://www.acmicpc.net/problem/2747)  | [풀이](https://www.acmicpc.net/source/25790229) | 구현       |
+| 2921     | [백준](https://www.acmicpc.net/problem/2921)  | [풀이](https://www.acmicpc.net/source/25790528) | 구현       |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
