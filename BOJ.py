@@ -897,3 +897,46 @@ for i in range(n+1):
     for j in range(i,n+1):
         sum += i+j
 print(sum)
+
+
+# BOJ 1065
+
+n = int(input())
+hs = 0;
+for i in range(1, n+1):
+    if i <= 99:
+        hs += 1
+
+    else:
+        ns = list(map(int,str(i)))
+        if ns[0] - ns[1] == ns[1] - ns[2]:
+            hs += 1
+
+print(hs)
+
+# BOJ 2577
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+result = str(a*b*c)
+
+for i in range(10):
+    print(result.count("{}".format(i)))
+
+# BOJ 1977
+
+m = int(input())
+n = int(input())
+result = []
+for i in range(1, 10001):
+    sq = i * i
+    if sq >= m and sq <= n:
+        result.append(sq)
+
+if len(result) == 0:
+    print(-1)
+else:
+    print(sum(result))
+    print(result[0])

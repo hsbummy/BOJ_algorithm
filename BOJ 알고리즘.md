@@ -97,18 +97,20 @@
 | 10984    | [백준](https://www.acmicpc.net/problem/10984) | [풀이](https://www.acmicpc.net/source/25783832) | 구현       |
 | 2747     | [백준](https://www.acmicpc.net/problem/2747)  | [풀이](https://www.acmicpc.net/source/25790229) | 구현       |
 | 2921     | [백준](https://www.acmicpc.net/problem/2921)  | [풀이](https://www.acmicpc.net/source/25790528) | 구현       |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
-|          |                                               |                                                 |            |
+
+
+
+## 3단계 Algorithm Study
+
+
+
+| 문제번호 | 문제링크                                     | 문제풀이                                        | 분류       |
+| -------- | -------------------------------------------- | ----------------------------------------------- | ---------- |
+| 1065     | [백준](https://www.acmicpc.net/problem/1065) | [풀이](https://www.acmicpc.net/source/26632320) | 브루트포스 |
+| 2577     | [백준](https://www.acmicpc.net/problem/2577) | [풀이](https://www.acmicpc.net/source/26676694) | 구현       |
+| 1977     | [백준](https://www.acmicpc.net/problem/1977) | [풀이](https://www.acmicpc.net/source/26678070) | 구현       |
+|          |                                              |                                                 |            |
+|          |                                              |                                                 |            |
+|          |                                              |                                                 |            |
+|          |                                              |                                                 |            |
 
