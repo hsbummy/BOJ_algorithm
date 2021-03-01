@@ -109,7 +109,7 @@
 | 1065     | [백준](https://www.acmicpc.net/problem/1065) | [풀이](https://www.acmicpc.net/source/26632320) | 브루트포스 |
 | 2577     | [백준](https://www.acmicpc.net/problem/2577) | [풀이](https://www.acmicpc.net/source/26676694) | 구현       |
 | 1977     | [백준](https://www.acmicpc.net/problem/1977) | [풀이](https://www.acmicpc.net/source/26678070) | 구현       |
-|          |                                              |                                                 |            |
+| 2798     | [백준](https://www.acmicpc.net/problem/2798) | [풀이](https://www.acmicpc.net/source/26867629) | 브루트포스 |
 |          |                                              |                                                 |            |
 |          |                                              |                                                 |            |
 |          |                                              |                                                 |            |

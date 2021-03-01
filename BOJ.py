@@ -940,3 +940,19 @@ if len(result) == 0:
 else:
     print(sum(result))
     print(result[0])
+
+
+# BOJ 2798
+
+n, m = map(int,input().split())
+alist = list(map(int,input().split()))
+result = 0
+for i in range(n):
+    for j in range(i+1,n):
+        for k in range(j+1,n):
+            if alist[i] + alist[j] + alist[k] > m:
+                continue
+            else:
+                result = max(result, alist[i] + alist[j] + alist[k])
+
+print(result)
