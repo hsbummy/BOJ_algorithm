@@ -956,3 +956,49 @@ for i in range(n):
                 result = max(result, alist[i] + alist[j] + alist[k])
 
 print(result)
+
+
+# BOJ 15649
+
+n,m = map(int,input().split())
+used = [0] * m
+visited = [0] * (n+1)
+
+def solve(stage):
+    if stage == m:
+        for i in used:
+            print(i,end=' ')
+        print()
+        return
+
+    for i in range(1, n+1):
+        if visited[i] == 0:
+            visited[i] = 1
+            used[stage] = i
+            solve(stage+1)
+            visited[i] = 0
+
+solve(0)
+
+
+# BOJ 2846
+
+n = int(input())
+hilllist = list(map(int, input().split()))
+maxhill = 0;
+uphill = [];
+
+for i in range(1, n):
+    if hilllist[i] > hilllist[i-1]:
+        maxhill += hilllist[i] - hilllist[i-1]
+        if i == n-1:
+            uphill.append(maxhill)
+
+    else:
+        uphill.append(maxhill)
+        maxhill = 0
+
+if len(uphill) == 0:
+    print(0)
+else:
+    print(max(uphill))
