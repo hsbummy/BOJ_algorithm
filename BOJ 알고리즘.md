@@ -112,5 +112,22 @@
 | 2798     | [백준](https://www.acmicpc.net/problem/2798)  | [풀이](https://www.acmicpc.net/source/26867629) | 브루트포스 |
 | 15649    | [백준](https://www.acmicpc.net/problem/15649) | [풀이](https://www.acmicpc.net/source/26898968) | 백트래킹   |
 | 2846     | [백준](https://www.acmicpc.net/problem/2846)  | [풀이](https://www.acmicpc.net/source/26901985) | 구현       |
+| 15650    | [백준](https://www.acmicpc.net/problem/15650) | [풀이](https://www.acmicpc.net/source/27124456) | 백트래킹   |
+| 15651    | [백준](https://www.acmicpc.net/problem/15651) | [풀이](https://www.acmicpc.net/source/27124624) | 백트래킹   |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
+|          |                                               |                                                 |            |
 |          |                                               |                                                 |            |
 
