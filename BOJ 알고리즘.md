@@ -135,22 +135,22 @@
 
 ## 그리디 & 구현
 
-| 문제번호 | 문제링크                                      | 문제풀이                                        | 분류   |
-| -------- | --------------------------------------------- | ----------------------------------------------- | ------ |
-| 2839     | [백준](https://www.acmicpc.net/problem/2839)  | [풀이](https://www.acmicpc.net/source/27510427) | 그리디 |
-| 5585     | [백준](https://www.acmicpc.net/problem/5585)  | [풀이](https://www.acmicpc.net/source/27519994) | 그리디 |
-| 1110     | [백준](https://www.acmicpc.net/problem/1110)  | [풀이](https://www.acmicpc.net/source/27574466) | 구현   |
-| 2562     | [백준](https://www.acmicpc.net/problem/2562)  | [풀이](https://www.acmicpc.net/source/27574850) | 구현   |
-| 3052     | [백준](https://www.acmicpc.net/problem/3052)  | [풀이](https://www.acmicpc.net/source/27599910) | 구현   |
-| 1546     | [백준](https://www.acmicpc.net/problem/1546)  | [풀이](https://www.acmicpc.net/source/27600332) | 구현   |
-| 8958     | [백준](https://www.acmicpc.net/problem/8958)  | [풀이](https://www.acmicpc.net/source/27613570) | 구현   |
-| 4344     | [백준](https://www.acmicpc.net/problem/4344)  | [풀이](https://www.acmicpc.net/source/27643366) | 구현   |
-| 15596    | [백준](https://www.acmicpc.net/problem/15596) | [풀이](https://www.acmicpc.net/source/27653684) | 함수   |
-|          |                                               |                                                 |        |
-|          |                                               |                                                 |        |
-|          |                                               |                                                 |        |
-|          |                                               |                                                 |        |
-|          |                                               |                                                 |        |
+| 문제번호 | 문제링크                                      | 문제풀이                                        | 분류         |
+| -------- | --------------------------------------------- | ----------------------------------------------- | ------------ |
+| 2839     | [백준](https://www.acmicpc.net/problem/2839)  | [풀이](https://www.acmicpc.net/source/27510427) | 그리디       |
+| 5585     | [백준](https://www.acmicpc.net/problem/5585)  | [풀이](https://www.acmicpc.net/source/27519994) | 그리디       |
+| 1110     | [백준](https://www.acmicpc.net/problem/1110)  | [풀이](https://www.acmicpc.net/source/27574466) | 구현         |
+| 2562     | [백준](https://www.acmicpc.net/problem/2562)  | [풀이](https://www.acmicpc.net/source/27574850) | 구현         |
+| 3052     | [백준](https://www.acmicpc.net/problem/3052)  | [풀이](https://www.acmicpc.net/source/27599910) | 구현         |
+| 1546     | [백준](https://www.acmicpc.net/problem/1546)  | [풀이](https://www.acmicpc.net/source/27600332) | 구현         |
+| 8958     | [백준](https://www.acmicpc.net/problem/8958)  | [풀이](https://www.acmicpc.net/source/27613570) | 구현         |
+| 4344     | [백준](https://www.acmicpc.net/problem/4344)  | [풀이](https://www.acmicpc.net/source/27643366) | 구현         |
+| 15596    | [백준](https://www.acmicpc.net/problem/15596) | [풀이](https://www.acmicpc.net/source/27653684) | 함수         |
+| 11720    | [백준](https://www.acmicpc.net/problem/11720) | [풀이](https://www.acmicpc.net/source/27818872) | 구현         |
+| 9506     | [백준](https://www.acmicpc.net/problem/9506)  | [풀이](https://www.acmicpc.net/source/28071679) | 구현         |
+| 11557    | [백준](https://www.acmicpc.net/problem/11557) | [풀이](https://www.acmicpc.net/source/28072326) | 정렬         |
+| 10988    | [백준](https://www.acmicpc.net/problem/10988) | [풀이](https://www.acmicpc.net/source/28072430) | 구현, 문자열 |
+|          |                                               |                                                 |              |
 
 
 
